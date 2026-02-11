@@ -1,0 +1,91 @@
+# Python编译文件
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyi
+
+# 虚拟环境
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# IDE和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.code-workspace
+*.sublime-*
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+data/double_ball.db
+
+# 机器学习模型文件（通常很大）
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.model
+models/*.pkl
+
+# 日志文件
+*.log
+logs/
+log/
+
+# 报告和输出文件
+reports/*.txt
+reports/*.html
+exports/
+charts/
+
+# 可视化文件
+visualizations/*.png
+visualizations/*.jpg
+visualizations/*.gif
+
+# 调试文件
+debug_pages/
+python
+debug/
+
+# 测试相关
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# 操作系统文件
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# 临时文件
+*.tmp
+*.temp
+*.cache
+.cache/
+
+# 文档文件
+docs/_build/
+docs/_site/
+
+# 其他
+data_files/
+*.csv
+*.xlsx
+*.xls
